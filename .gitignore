@@ -1,9 +1,10 @@
-
----
-
-## File 3: `.gitignore`
-pycache/
+__pycache__/
 *.py[cod]
 .env
 .venv/
 venv/
+data/historical/*.csv
+!data/historical/.gitkeep
+output/*.csv
+output/*.md
+!output/.gitkeep

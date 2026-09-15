@@ -1,4 +1,3 @@
-```python
 """
 The 17 odds-meaning rules from "How to Make Over a Million at the Start of
 Every New Football Season" (Justin Onyeka / Jay Soccer Predictions, 2018).
@@ -12,13 +11,13 @@ from dataclasses import dataclass
 @dataclass
 class BookRule:
     id: str
-    odds_field: str            # 'H', 'A', or 'D'
+    odds_field: str
     odds_min: float
     odds_max: float
     play: str
     claimed_confidence: int
     claimed_odds: float
-    season_note: str = "any"   # 'early', 'mid', 'late', 'any'
+    season_note: str = "any"
     source_page: int = 0
 
 
@@ -50,3 +49,4 @@ BOOK_RULES = [
     BookRule("Book #15b", 'D', 3.28, 3.30, "FT Draw",                       30, 3.29, source_page=16),
     BookRule("Book #16",  'D', 3.38, 3.40, "BTTS or Over 2.5",              60, 3.39, source_page=16),
     BookRule("Book #17",  'D', 3.58, 3.62, "Over 0.5 HT or Over 3.5 FT",    65, 3.60, season_note="early", source_page=16),
+]
