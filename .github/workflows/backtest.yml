@@ -1,0 +1,32 @@
+name: Run Book Backtest
+
+on:
+  workflow_dispatch:   # manual trigger only — no schedule
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download historical data
+        run: python src/fetch_data.py
+
+      - name: Run backtest
+        run: python src/run_backtest.py
+
+      - name: Analyze profitability
+        run: python src/analyze_results.py
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-output
+          path: output/
