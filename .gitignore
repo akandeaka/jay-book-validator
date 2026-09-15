@@ -1,0 +1,9 @@
+
+---
+
+## File 3: `.gitignore`
+pycache/
+*.py[cod]
+.env
+.venv/
+venv/
