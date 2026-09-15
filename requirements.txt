@@ -2,3 +2,4 @@
 ---
 
 ## File 2: `requirements.txt`
+pandas>=2.0.0
