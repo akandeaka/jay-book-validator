@@ -1,0 +1,25 @@
+id,field,play,claimed_%,samples,wins,real_%,gap,avg_odds,verdict
+Book #1,H,Under 1.5 HT,70,305,152,49.84,-20.16,1.137,🔴 OVERSTATED (-20.2)
+Book #2,H,Home + Over 2.5 FT,70,485,283,58.35,-11.65,1.191,🔴 OVERSTATED (-11.6)
+Book #3a,H,Straight Home Win,90,317,247,77.92,-12.08,1.22,🔴 OVERSTATED (-12.1)
+Book #3b,H,Straight Home Win,90,456,365,80.04,-9.96,1.251,🔴 OVERSTATED (-10.0)
+Book #3c,H,Straight Home Win,90,359,276,76.88,-13.12,1.284,🔴 OVERSTATED (-13.1)
+Book #4,H,Avoid (trap),50,432,85,19.68,-30.32,1.25,🔴 OVERSTATED (-30.3)
+Book #5a,H,Straight Home Win,85,497,376,75.65,-9.35,1.297,🔴 OVERSTATED (-9.3)
+Book #5b,H,Straight Home Win,85,612,451,73.69,-11.31,1.36,🔴 OVERSTATED (-11.3)
+Book #6,H,1X & Under 3.5,80,497,279,56.14,-23.86,1.297,🔴 OVERSTATED (-23.9)
+Book #7,H,1X & Under 4.5,78,1791,1321,73.76,-4.24,1.426,✅ aligned
+Book #8a,H,Straight Home Win,82,791,500,63.21,-18.79,1.5,🔴 OVERSTATED (-18.8)
+Book #8b,H,Straight Home Win,82,723,437,60.44,-21.56,1.57,🔴 OVERSTATED (-21.6)
+Book #9,A,X2 & Under 3.5,75,192,97,50.52,-24.48,1.53,🔴 OVERSTATED (-24.5)
+Book #10,H,Straight Home Win,75,723,437,60.44,-14.56,1.57,🔴 OVERSTATED (-14.6)
+Book #11a,H,Straight Home Win,80,921,546,59.28,-20.72,1.726,🔴 OVERSTATED (-20.7)
+Book #11b,H,Straight Home Win,80,1217,661,54.31,-25.69,1.8,🔴 OVERSTATED (-25.7)
+Book #12,H,1X & Under 3.5,72,1657,987,59.57,-12.43,1.905,🔴 OVERSTATED (-12.4)
+Book #13a,H,Straight Home Win,65,2014,927,46.03,-18.97,2.0,🔴 OVERSTATED (-19.0)
+Book #13b,H,Straight Home Win,65,1847,810,43.85,-21.15,2.1,🔴 OVERSTATED (-21.1)
+Book #14,D,FT Draw,30,3134,1049,33.47,3.47,3.0,✅ aligned
+Book #15a,D,FT Draw,30,2786,861,30.9,0.9,3.25,✅ aligned
+Book #15b,D,FT Draw,30,4930,1417,28.74,-1.26,3.299,✅ aligned
+Book #16,D,BTTS or Over 2.5,60,6288,3942,62.69,2.69,3.399,✅ aligned
+Book #17,D,Over 0.5 HT or Over 3.5 FT,65,4634,3260,70.35,5.35,3.6,🟢 UNDERSTATED (+5.3)
